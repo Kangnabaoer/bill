@@ -1,0 +1,10 @@
+He is a log system that log message wanted to print.
+
+0.0.1-SNAPSHOT
+	SimpleLogger just to print message on console.
+	JavaLogger use java.util.logging.Logger to print message.
+
+NEXT:
+0.0.2-SNAPSHOT
+	FileLogger print message to file.	
+	
