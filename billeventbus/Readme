@@ -1,0 +1,22 @@
+He is a event bus system that offer posting event to the subscriber who interesting on it;
+
+0.0.1-SNAPSHOT
+	use java reflect to invoke method.
+	
+	____________________					  _________
+   | 					| 					 /		   \					 onEvent
+   |					|	   Event		/			\				   / --------->Subscriber
+   |	Publisher		|----------------> /	Event	 \	------------->/			   
+   |					|	   post()	   \	 Bus	 /			      \	 onEvent
+   |____________________|		   			\			/				   \---------->Subscriber
+											 \_________/
+	
+NEXT:
+0.0.2-SNAPSHOT
+	use javassist to dynamic generate code instead of java reflect. 
+	
+	
+NEXT:
+0.0.3-SNAPSHOT
+	use annotation to detect the subscriber when server start
+	use custom NameThreadFactory and custom nameThread
